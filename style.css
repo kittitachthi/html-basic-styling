@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .containner {
@@ -27,25 +28,26 @@ article {
   position: relative;
 }
 
-.shoes-img {
-  margin-bottom: 10px;
-}
-
 .price {
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  float: left;
 }
 
 .shipping {
   color: #7c7c7c;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 12px;
   margin-bottom: 10px;
+  margin-top: 39px;
+  float: right;
 }
 
 .discritpion {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  clear: both;
 }
 
 .more-info:link {
@@ -73,7 +75,7 @@ article {
 
 .details-list {
   list-style: square;
-  line-height: 2;
+  line-height: 1.6;
   margin-left: 30px;
 }
 
@@ -86,7 +88,6 @@ article {
   cursor: pointer;
   width: 100%;
   padding: 15px 0;
-  margin-top: 20px;
   border-top: 4px solid black;
 }
 
@@ -113,7 +114,7 @@ h1::after {
   display: inline-block;
   background-color: black;
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 12px;
 }
 
@@ -121,7 +122,7 @@ h1::after {
   display: inline-block;
   background-color: rgb(59, 28, 236);
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 12px;
 }
 
@@ -129,7 +130,7 @@ h1::after {
   display: inline-block;
   background-color: rgb(218, 83, 83);
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 12px;
 }
 
@@ -137,7 +138,7 @@ h1::after {
   display: inline-block;
   background-color: rgb(216, 216, 37);
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 12px;
 }
 
@@ -145,7 +146,7 @@ h1::after {
   display: inline-block;
   background-color: green;
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 12px;
 }
 
@@ -153,5 +154,27 @@ h1::after {
   display: inline-block;
   background-color: rgb(92, 50, 50);
   padding: 10px 10px;
+  margin-top: 20px;
   margin-top: 15px;
+}
+
+.containner-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.containner-price-shipping-discritpion-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+}
+
+.containner-productdetails-lists {
+  width: 243px;
+  float: left;
+}
+
+.shoes-img {
+  float: left;
+  margin-right: 40px;
 }
